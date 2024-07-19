@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Product Name</td>
+            <td>
+                <input type="text" id="pn">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Product Price</td>
+            <td>
+                <input type="text" id="pp">
+            </td>
+
+            <tr>
+                <td>product Quantity</td>
+                <td>
+                    <input type="text" id="pq">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Rate</td>
+                <td>
+                    <select name="" id="rate">
+                        <option value="5">5%</option>
+                        <option value="12">12%</option>
+                        <option value="18">18%</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>intrasate/intersate</td>
+                <td>
+                    <select name="" id="ps">
+                        <option value="0">intrasate</option>
+                        <option value="1">intersate</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button  onclick="gstcalc()">calculate gst</button>
+                </td>
+            </tr>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>Product Name</td>
+            <td>Product Price</td>
+            <td>Product Quantity</td>
+            <td>Amount</td>
+        </tr>
+        <tr id="tr1"></tr>
+        <tr id="tr2"></tr>
+        <tr id="tr3"></tr>
+        <tr id="tr4"></tr>
+    </table>
+
+
+
+
+
+    <script src="./js/code.js"></script>
+</body>
+</html>
